@@ -175,7 +175,6 @@ export const PROJECTS_DATA: ProjectItem[] = [
     images: [
       "/BovasOye/bovasoye-1.jpg",
       "/BovasOye/bovasoye-2.jpg",
-      "/BovasOye/bovasoye-3.jpg",
       "/BovasOye/bovasoye-4.jpg",
       "/BovasOye/bovasoye-5.jpg",
       "/BovasOye/bovasoye-6.jpg",
