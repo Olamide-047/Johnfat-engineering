@@ -3,7 +3,7 @@ name: Deploy React App to Truehost
 on:
   push:
     branches:
-      - main # Change to 'master' if your main branch is named master
+      - main
 
 jobs:
   web-deploy:
@@ -29,5 +29,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftps
+          security: loose
           local-dir: ./dist/
           server-dir: /public_html/
