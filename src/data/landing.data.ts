@@ -16,8 +16,8 @@ export const HERO_DATA = {
     "Successful projects rely on deep foundations, precise land surveying, and uncompromised site supervision.",
   primaryCta: "Book a call",
   secondaryCta: "View our projects",
-  backgroundImage: "/hero-bg.jpg",
-  previewImage: "/face.jpg",
+  backgroundImage: "/engr.jpg",
+  previewImage: "/hero.jpg",
 };
 
 export const ABOUT_STATS: StatCard[] = [

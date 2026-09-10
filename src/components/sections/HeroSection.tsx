@@ -41,16 +41,16 @@ export const HeroSection: React.FC<{ onContactClick: () => void }> = ({
             <img
               src={HERO_DATA.backgroundImage}
               alt="Hero site preview"
-              className="w-full h-80 object-cover"
+              className="w-150 h-120 object-cover"
             />
           </div>
-          {/* <div className="absolute -bottom-6 -right-6 w-48 rounded-lg overflow-hidden border-2 border-amber-500 shadow-xl hidden md:block">
+          <div className="absolute -bottom-6 -right-6 w-48 rounded-lg overflow-hidden border-2 border-amber-500 shadow-xl hidden md:block">
             <img
               src={HERO_DATA.previewImage}
               alt="Completed build"
               className="w-full h-32 object-cover"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
